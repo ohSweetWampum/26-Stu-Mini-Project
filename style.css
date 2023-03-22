@@ -3,6 +3,9 @@ background-color: aquamarine;}
 img {
     width: 200px;
     height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .textbox {color:wheat;
@@ -16,8 +19,14 @@ color: aliceblue;}
     position: fixed;        
     padding: 10px 0; }
 
-    .header ul{
+    ul * {
         display: inline-block;
+        font-size: 20px;
+        padding: 5px;
+        position: relative;
+        right: 5px;
         
     }    
-    
+* {
+    text-align: center;
+}
