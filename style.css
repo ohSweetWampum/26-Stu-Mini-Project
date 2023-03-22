@@ -1,0 +1,23 @@
+* {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: aquamarine;}
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.textbox {color:wheat;
+background-color: brown;}
+
+#heck {background-color: blueviolet;
+color: aliceblue;}
+
+.fixed-header{
+    width: 100%;
+    position: fixed;        
+    padding: 10px 0; }
+
+    .header ul{
+        display: inline-block;
+        
+    }    
+    
